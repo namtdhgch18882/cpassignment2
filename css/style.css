@@ -1,0 +1,255 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	height: 90px;
+	display: block;
+	background-color: #101010;
+}
+.inner-header{
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 256px;
+    height: 90px;
+}
+.navbar{
+  	float: right;
+    height: 100%
+}
+
+.navbar li{
+	height: 100%;
+	display: table;
+	float: left;
+}
+
+.navbar li a{
+	display: table-cell;
+ 	color: white;
+  vertical-align: middle;
+  padding: 0px 20px;
+  text-decoration: none;
+ }
+
+ .navbar li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.advert{
+	height: 350px;
+	background-color: #C8D4F9;
+	background-image: url('../img/advert.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.sidebar{
+  width: 20%;
+  float: left;
+  height: 400px;
+  background-color: #8FBC8F;
+  margin-top: 350px;
+}
+
+.sidebar li a{
+  font-size: 15px;
+  color: #FFF;
+  padding: 10px 0px 10px 20px;
+  display: block;
+  border-bottom: 1px dotted gray;
+  height: auto;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+ }
+
+.sidebar li a.active {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.footer{
+  height: 90px;
+  clear: both;
+  background-color: #101010;
+}
+
+.footer p{
+  line-height: 90px;
+  text-align: center;
+  color: white;
+}
+
+.content{
+  height: 400px;
+  width: 80%;
+  float: left;
+  margin-top: 350px;
+}
+
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.box h1{
+  color: white;
+  font-weight: 500;
+}
+
+.box input[type = "text"],.box input[type="password"]{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ADD8E6;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type ="submit"]{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s
+}
+
+.box input[type ="submit"]:hover{
+  background: #2ecc71;
+}
+
+.loginbg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+ }
+
+ .product{
+  background-color: #9BF2E9;
+  height: 180px;
+  width: 24%;
+  margin: 0.5%;
+  float: left;
+}
+
+.name{
+  background-color: #C9CFFF;
+  height: 30px;
+  text-align: center;
+}
+
+.image{
+  background-color: #F8BABA;
+  height: 120px;
+}
+
+.price{
+  background-color: #FDCBF9;
+  height: 30px;
+  text-align: center;
+}
+
+th{
+  padding: 10px;
+  background-color: #0000A0;
+  color: white;
+  text-align: left;
+}
+
+td{
+  padding: 5px;
+}
+
+tr{
+  background-color: #d3dcf2;
+}
+
+h1{
+  margin-bottom: 15px;
+}
+
+.about-section{
+  overflow: hidden;
+  text-align: center;
+  padding: 60px;
+  height: 310px;
+  background-image: url("../img/workplace.png");
+  background-size: 100% 100%;
+}
+
+.about-section h2{
+  font-size: 40px;
+  color: black;
+  margin-top: -50px;
+}
+
+.border{
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 3px;
+  background: #3498db;
+  margin-bottom: 20px;
+}
+
+.about-section p{
+  text-align: justify;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.addproduct{
+  width: 300px;
+  padding: 10px 30px 40px;
+  background-color: #f0f8ff;
+  margin-left: 38%;
+  margin-right: 38%;
+}
+
+h3{
+  text-align: center;
+}
+
+.addproduct input{
+  width: 100%;
+  height: 30px;
+  border-radius: 2px;
+  margin-top: 10px;
+  padding: 7px;
+  border: solid;
+  margin-bottom: 20px;
+}
