@@ -8,9 +8,6 @@
 	<?php 
 	require_once("./db.php");
 	?>
-		<div class="addproduct">
-			<h1>Update Product</h1>	
-		</div>	
 			<form class="addproduct" action="" method="Post">
 				Product Id:  
 				<input type="text" name="Id"> <br>
