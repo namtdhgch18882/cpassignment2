@@ -37,7 +37,7 @@
 				<a href="./admin.php">Back to Admin</a>
 			</form>
 			<?php 
-			if(isset($_POST['Id']) && isset($_POST['Name']) && isset($_POST['Image']) && isset($_POST['Price']) && isset($_POST['CatId']) && isset($_POST['Details']))
+			if(isset($_POST['Id']) && isset($_POST['Name']) && isset($_POST['Image']) && isset($_POST['Price']) && isset($_POST['CatId']))
 			{
 				$id = $_POST['Id'];
 				$name = $_POST['Name'];
