@@ -16,6 +16,7 @@
 					<th>Image</th>
 					<th>Price</th>
 					<th>CatId</th>
+					<th>Actions</th>
 				</tr>
 		<?php 
 		$sql = "Select * from product";
