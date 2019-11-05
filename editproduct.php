@@ -47,7 +47,7 @@
 
 				$sql = "Update product 
 				Set ProductName='" . $name . "', Image='" . $img . "', Price=" . $pr . ", 
-				CatId=" . $cid . "',
+				CatId=" . $cid . "
 				Where ProductId='" . $id . "';";
 				
 				$rs = execsql($sql);
