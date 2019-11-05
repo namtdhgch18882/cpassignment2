@@ -46,11 +46,10 @@
 				$img = $_POST['Image'];
 				$pr = $_POST['Price'];
 				$cid = $_POST['CatId'];
-				$dtl = $_POST['Details'];
 
 				$sql = "Update product 
 				Set ProductName='" . $name . "', Image='" . $img . "', Price=" . $pr . ", 
-				CatId=" . $cid . ", ProductDetails='" . $dtl . "'
+				CatId=" . $cid . "'
 				Where ProductId='" . $id . "';";
 				
 				$rs = execsql($sql);
