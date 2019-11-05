@@ -31,7 +31,7 @@
 					<td><?=$pros[$i][3]?></td>
 					<td><?=$pros[$i][4]?></td>
 					<td><a href="./editproduct.php">Edit</a>
-						<a href="./delete.php">Delete</a>
+						<a href="./deleteproduct.php">Delete</a>
 				</tr>
 			<?php
 		}
