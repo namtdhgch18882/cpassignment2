@@ -1,9 +1,9 @@
 <?php
 	require_once('db.php');
  
-	if( isset($_GET['id']) )
+	if( isset($_GET['pid']) )
 	{
-		$id = $_GET['id'];
+		$id = $_GET['pid'];
 		$sql= "Delete from product where ProductId='$id'";
 		$rs = execsql($sql);
 		if($rs != null)
