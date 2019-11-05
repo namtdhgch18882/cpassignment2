@@ -4,7 +4,7 @@
 	if( isset($_GET['productid']) )
 	{
 		$id = $_GET['productid'];
-		$sql= "Delete from product where productid='$id'";
+		$sql= "Delete from product where ProductId='$id'";
 		$rs = execsql($sql);
 		if($rs != null)
 			echo "Product has been deleted successfully!";
