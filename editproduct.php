@@ -17,8 +17,6 @@
 				<input type="text" name="Image"> <br>
 				Price:     
 				<input type="text" name="Price"> <br>
-				Product Details:
-				<input type="text" name="Details"> <br>
 				Category:
 				<select name="CatId">
 				<?php 
